@@ -5,7 +5,7 @@ import threading
 import RPi.GPIO as GPIO
 
 import logging
-logging.basicConfig(filename='/opt/ffpi/pialert.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(name)s %(message)s')
+logging.basicConfig(filename='/opt/divera-pi_alert/pialert.log', level=logging.DEBUG, format='%(asctime)s %(levelname)s %(name)s %(message)s')
 
 # normalize config file dict that returns new dict
 def get_conf(config_json):
@@ -125,7 +125,7 @@ def read_json(file):
 
 def main():
     logging.debug("Pialert started")
-    f_conf = read_json("/opt/ffpi/static/config.json")
+    f_conf = read_json("/opt/divera-pi_alert/static/config.json")
     dict_conf = get_conf(f_conf)
     th_gpio = threading.Thread(target=toggle(dict_conf))
 
