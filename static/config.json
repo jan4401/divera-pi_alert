@@ -1,0 +1,15 @@
+{
+	"hardware":
+	{
+		"reading_pin":17
+	},
+       	"webapi":
+	{
+		"key": "YOURKEY",
+		"url": "http://www.divera247.com/api/alarm?accesskey="
+       	},
+	"request":
+	{
+		"type": "DME-Meldung"
+	} 
+}

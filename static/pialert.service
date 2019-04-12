@@ -1,0 +1,9 @@
+[Unit]
+Description=Watch GPIO and alert Divera
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /opt/ffpi/sources/main.py
+
+[Install]
+WantedBy=multi-user.target
