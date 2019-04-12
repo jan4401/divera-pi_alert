@@ -1,4 +1,4 @@
-# FF Raspberry PI to Divera Project
+# Raspberry PI to Divera alert Project
 This project has the following functionalities:
 1) Read GPIO to check for alert on DME station
 2) Request Divera24/7 WebAPI 
