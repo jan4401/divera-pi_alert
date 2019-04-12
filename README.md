@@ -18,7 +18,7 @@ The config file is located in the static directory
 
 * hardware: Reading GPIO Port
 * webapi: DIVERA24/7 API Key
-* request: JSON POST Request
+* request: HTTP GET 
 
 ## Hardware Specification
 This project is using a Raspberry PI3 that is connected with an Oelmann LX4 home station.
